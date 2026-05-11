@@ -1,0 +1,8 @@
+输入提示词：“参考这张截图的视觉风格（边距、配色、圆角），为我创建一个 AI 培训网站的首页。
+内容需要包含：AI 实战课程、企业咨询服务、GitHub 开源社区展示。请使用 Tailwind CSS。”
+
+
+参考这张截图的视觉风格（边距、配色、圆角），网址：https://www.baichuan-ai.com/home，
+为我创建一个 AI 培训网站的首页。
+内容需要包含：AI 实战课程、企业咨询服务、案例展示、GitHub 开源社区（https://github.com/datawhalechina/easy-vibe）
+展示。请使用 Tailwind CSS。

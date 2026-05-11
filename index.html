@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智易 AI - 实战培训与企业咨询</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', 'PingFang SC', sans-serif; }
+        .baichuan-orange { color: #FF6B00; }
+        .bg-baichuan-orange { background-color: #FF6B00; }
+        .border-baichuan-orange { border-color: #FF6B00; }
+        /* 这里的超大圆角是模仿百川设计的关键 */
+        .rounded-baichuan { border-radius: 2rem; }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <div class="w-8 h-8 bg-baichuan-orange rounded-lg flex items-center justify-center text-white font-bold">智</div>
+                <span class="text-xl font-bold tracking-tight">智易 AI <span class="text-xs text-gray-400 font-normal ml-1">EASY VIBE</span></span>
+            </div>
+            <div class="hidden md:flex space-x-10 text-sm font-medium text-gray-600">
+                <a href="#courses" class="hover:text-orange-600 transition">AI 实战课程</a>
+                <a href="#consulting" class="hover:text-orange-600 transition">企业咨询</a>
+                <a href="#cases" class="hover:text-orange-600 transition">成功案例</a>
+                <a href="#community" class="hover:text-orange-600 transition">开源社区</a>
+            </div>
+            <a href="#" class="bg-baichuan-orange text-white px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-orange-700 transition shadow-lg shadow-orange-200">
+                立即体验
+            </a>
+        </div>
+    </nav>
+
+    <section class="pt-40 pb-20 px-6">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h1 class="text-6xl font-bold leading-tight mb-6">
+                    智易 AI <br/>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-orange-400">实战训练营</span>
+                </h1>
+                <p class="text-xl text-gray-500 mb-10 leading-relaxed">
+                    源自 Easy-Vibe，全场景 AIGC 实战与企业咨询。我们不仅教授工具，更致力于构建属于您的 AI 工作流。
+                </p>
+                <div class="flex space-x-4">
+                    <button class="bg-baichuan-orange text-white px-8 py-4 rounded-full font-bold hover:shadow-xl transition">立即学起</button>
+                    <button class="border border-gray-200 text-gray-700 px-8 py-4 rounded-full font-bold hover:bg-gray-50 transition">企业定制</button>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="absolute -inset-4 bg-orange-100/50 rounded-full blur-3xl"></div>
+                <div class="relative bg-gradient-to-br from-orange-50 to-white border border-orange-100 rounded-baichuan p-10 h-80 flex items-center justify-center">
+                    <svg class="w-48 h-48 text-orange-200" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-6 -mt-10 mb-24 grid md:grid-cols-3 gap-8 relative z-10">
+        <div class="bg-white p-8 rounded-baichuan shadow-xl shadow-gray-100 border border-gray-50">
+            <div class="text-orange-600 text-3xl font-bold mb-2">98%</div>
+            <div class="font-bold text-gray-800 mb-2">极速上手</div>
+            <p class="text-sm text-gray-500">基于 Easy-Vibe 的极简 AIGC 实战路径，0 基础无忧。</p>
+        </div>
+        <div class="bg-white p-8 rounded-baichuan shadow-xl shadow-gray-100 border border-gray-50">
+            <div class="text-orange-600 text-3xl font-bold mb-2">500+</div>
+            <div class="font-bold text-gray-800 mb-2">企业赋能</div>
+            <p class="text-sm text-gray-500">定制化大模型内训与落地解决方案咨询。</p>
+        </div>
+        <div class="bg-white p-8 rounded-baichuan shadow-xl shadow-gray-100 border border-gray-50">
+            <div class="text-orange-600 text-3xl font-bold mb-2">10k+</div>
+            <div class="font-bold text-gray-800 mb-2">GitHub Stars</div>
+            <div class="text-sm text-gray-500">Datawhale 开源精神深度融合。</div>
+        </div>
+    </section>
+
+    <section id="courses" class="bg-gray-50 py-24 px-6">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 text-center">AI 实战课程体系</h2>
+            <div class="grid md:grid-cols-4 gap-6">
+                <div class="group bg-white p-6 rounded-baichuan border border-transparent hover:border-baichuan-orange transition duration-300">
+                    <div class="w-12 h-12 bg-orange-50 rounded-2xl flex items-center justify-center mb-6 text-orange-600 group-hover:bg-baichuan-orange group-hover:text-white transition">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                    </div>
+                    <h3 class="font-bold mb-3">Easy-Vibe 精通</h3>
+                    <p class="text-sm text-gray-500 mb-6">掌握 Data-centric LLM 核心实战技巧。</p>
+                    <button class="text-sm font-bold text-orange-600 flex items-center">了解详情 <span class="ml-1">→</span></button>
+                </div>
+                <div class="group bg-white p-6 rounded-baichuan border border-transparent hover:border-baichuan-orange transition">
+                    <div class="w-12 h-12 bg-orange-50 rounded-2xl flex items-center justify-center mb-6 text-orange-600">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                    </div>
+                    <h3 class="font-bold mb-3">大模型私有化</h3>
+                    <p class="text-sm text-gray-500 mb-6">企业级本地部署与微调全流程指导。</p>
+                    <button class="text-sm font-bold text-orange-600 flex items-center">了解详情 <span class="ml-1">→</span></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="consulting" class="py-24 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-12">
+                <div>
+                    <h2 class="text-3xl font-bold mb-4">企业咨询与成功案例</h2>
+                    <p class="text-gray-500">为企业量身定制 AI 转型蓝图</p>
+                </div>
+                <button class="text-orange-600 font-semibold">查看全部案例 →</button>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="relative overflow-hidden rounded-baichuan group h-64">
+                    <div class="absolute inset-0 bg-gray-900/40 group-hover:bg-gray-900/20 transition"></div>
+                    <div class="absolute bottom-8 left-8 text-white">
+                        <div class="text-sm opacity-80 mb-2">金融行业</div>
+                        <h4 class="text-xl font-bold">某券商研报 AI 自动生成系统</h4>
+                    </div>
+                    <div class="w-full h-full bg-orange-100"></div> </div>
+                <div class="relative overflow-hidden rounded-baichuan group h-64">
+                    <div class="absolute inset-0 bg-gray-900/40 group-hover:bg-gray-900/20 transition"></div>
+                    <div class="absolute bottom-8 left-8 text-white">
+                        <div class="text-sm opacity-80 mb-2">制造行业</div>
+                        <h4 class="text-xl font-bold">智能知识库辅助生产决策</h4>
+                    </div>
+                    <div class="w-full h-full bg-gray-200"></div> </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="community" class="pb-24 px-6">
+        <div class="max-w-7xl mx-auto bg-gray-900 rounded-baichuan p-12 text-white flex flex-col md:flex-row items-center justify-between">
+            <div class="mb-8 md:mb-0">
+                <h2 class="text-3xl font-bold mb-4 italic">easy-vibe project</h2>
+                <p class="text-gray-400 mb-6 max-w-md">Datawhale Data-centric LLM 精神沉淀。我们坚持开源分享，将最前沿的 AI 实践经验回馈社区。</p>
+                <div class="flex space-x-6">
+                    <div><span class="text-orange-400 font-bold text-xl">8k+</span> <span class="text-sm text-gray-500 ml-1">Stars</span></div>
+                    <div><span class="text-orange-400 font-bold text-xl">1.2k+</span> <span class="text-sm text-gray-500 ml-1">Forks</span></div>
+                </div>
+            </div>
+            <a href="https://github.com/datawhalechina/easy-vibe" target="_blank" class="bg-white text-gray-900 px-8 py-4 rounded-full font-bold flex items-center hover:bg-orange-50 transition">
+                <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                在 GitHub 上查看
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-white border-t border-gray-100 py-12 px-6">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
+            <div class="mb-6 md:mb-0">
+                <span class="text-xl font-bold italic">智易 AI</span>
+                <p class="text-xs text-gray-400 mt-1">© 2024 Drinot Company. All rights reserved.</p>
+            </div>
+            <div class="flex space-x-8 text-sm text-gray-500">
+                <a href="#" class="hover:text-orange-600">服务条款</a>
+                <a href="#" class="hover:text-orange-600">隐私政策</a>
+                <a href="#" class="hover:text-orange-600">联系我们</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
